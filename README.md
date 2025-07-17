@@ -27,21 +27,52 @@ A full-stack **Secure File Vault System** built with **Spring Boot**, **JWT Auth
 | Mail       | JavaMailSender (SMTP)    |
 
 ---
+secure-vault/Screenshots
+/login.png
+
 
 ## 📸 Screenshots
 
-| Screenshot | Description |
-|------------|-------------|
-| ![Login](./screenshots/login.png) | 🔐 **Login Page** – Secure login using JWT tokens |
-| ![Register](./screenshots/register.png) | 📝 **Register Page** – Users register with email and receive an OTP |
-| ![Password Reset](./screenshots/password-reset-code.png) | 📧 **Password Reset Page** – Enter email to receive secure reset OTP |
-| ![OTP Email](./screenshots/otp-verification-email.jpg) | ✉️ **OTP Email** – One-time verification code sent via mail |
-| ![User Dashboard](./screenshots/user-dashboard.png) | 🗂️ **User Dashboard** – Upload/download/manage own files securely |
-| ![Admin Dashboard](./screenshots/admin-dashboard.png) | ⚙️ **Admin Dashboard** – View/manage users, logs, and uploaded files |
-| ![Audit Log Email](./screenshots/daily-audit-log-email.jpg) | 📬 **Daily Audit Email** – Admin gets daily activity summary in email |
+| ![Login](./Screenshots/login.png) | ![Register](./Screenshots/register.png) |
+|:--:|:--:|
+| 🔐 **Login Page**<br>Secure login using JWT tokens | 📝 **Register Page**<br>Users register with email and receive OTP |
 
-> 📢 _All sensitive actions (login, upload, delete, password reset, etc.) are securely logged and accessible to Admin for audit and compliance._
+<table>
+  <tr>
+    <td align="center">
+      <img src="./Screenshots/password-reset-code.png" width="200"/><br>
+      📧 <b>Password Reset</b><br>
+      Reset via email with OTP
+    </td>
+    <td align="center">
+      <img src="./Screenshots/otp-verification-email.jpg" width="200"/><br>
+      ✉️ <b>OTP Email</b><br>
+      Verification code sent to email
+    </td>
+    <td align="center">
+      <img src="./Screenshots/daily-audit-log-email.jpg" width="200"/><br>
+      📬 <b>Daily Audit Email</b><br>
+      Daily user activity log sent to admin
+    </td>
+  </tr>
+</table>
 
+---
+
+### 🗂️ User Dashboard
+![User Dashboard](./Screenshots/user-dashboard.png)
+Securely manage your uploaded/downloaded files with role-based access and clean UI.
+
+---
+
+### ⚙️ Admin Dashboard
+![Admin Dashboard](./Screenshots/admin-dashboard.png)
+Admin control panel to manage users, files, and view complete activity logs.
+
+
+---
+
+> 🔐 _All sensitive operations (login, uploads, deletions, password resets, etc.) are securely logged and audited for system integrity._
 ---
 
 ## 📦 Installation & Run
